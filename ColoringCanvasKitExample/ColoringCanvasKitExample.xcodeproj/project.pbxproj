@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -129,7 +129,6 @@
 			);
 			mainGroup = E43283942C686E65003AE419;
 			packageReferences = (
-				E4F519262C6870C7002869B8 /* XCLocalSwiftPackageReference "../ColoringCanvasKit" */,
 			);
 			productRefGroup = E432839E2C686E65003AE419 /* Products */;
 			projectDirPath = "";
@@ -372,13 +371,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		E4F519262C6870C7002869B8 /* XCLocalSwiftPackageReference "../ColoringCanvasKit" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../ColoringCanvasKit;
-		};
-/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		E4F519292C68AFAE002869B8 /* ColoringCanvasKit */ = {
