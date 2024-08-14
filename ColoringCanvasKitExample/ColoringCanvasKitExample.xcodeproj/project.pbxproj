@@ -376,7 +376,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/grohong/ColoringCanvasKit.git";
 			requirement = {
-				branch = feature/spm;
+				branch = main;
 				kind = branch;
 			};
 		};

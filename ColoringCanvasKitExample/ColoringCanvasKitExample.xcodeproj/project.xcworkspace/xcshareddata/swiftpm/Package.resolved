@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/grohong/ColoringCanvasKit.git",
       "state" : {
-        "branch" : "feature/spm",
-        "revision" : "bbf64393f972ff79b56228ed8fe6f575c3b4e35d"
+        "branch" : "main",
+        "revision" : "0ddbf0ff573ac26f1ca0e4fe63b18435eb8a5806"
       }
     }
   ],
