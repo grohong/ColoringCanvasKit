@@ -1,0 +1,15 @@
+{
+  "originHash" : "7b8f9eacc32ba7745a4b5d943cfdb171582a7be76e488ba1e7bd0e9bb04de7fc",
+  "pins" : [
+    {
+      "identity" : "coloringcanvaskit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/grohong/ColoringCanvasKit.git",
+      "state" : {
+        "branch" : "feature/spm",
+        "revision" : "22ab0f4f5dcf8b9ceb17053273f620283226e82c"
+      }
+    }
+  ],
+  "version" : 3
+}

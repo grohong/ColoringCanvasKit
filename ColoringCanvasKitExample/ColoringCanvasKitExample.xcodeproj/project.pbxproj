@@ -129,6 +129,7 @@
 			);
 			mainGroup = E43283942C686E65003AE419;
 			packageReferences = (
+				E42116BD2C6D0966000C19E5 /* XCRemoteSwiftPackageReference "ColoringCanvasKit" */,
 			);
 			productRefGroup = E432839E2C686E65003AE419 /* Products */;
 			projectDirPath = "";
@@ -371,6 +372,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E42116BD2C6D0966000C19E5 /* XCRemoteSwiftPackageReference "ColoringCanvasKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grohong/ColoringCanvasKit.git";
+			requirement = {
+				branch = feature/spm;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		E4F519292C68AFAE002869B8 /* ColoringCanvasKit */ = {
