@@ -11,8 +11,7 @@
 		E43283A32C686E65003AE419 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43283A22C686E65003AE419 /* ContentView.swift */; };
 		E43283A52C686E66003AE419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43283A42C686E66003AE419 /* Assets.xcassets */; };
 		E43283A82C686E66003AE419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43283A72C686E66003AE419 /* Preview Assets.xcassets */; };
-		E4F5192A2C68AFAE002869B8 /* ColoringCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4F519292C68AFAE002869B8 /* ColoringCanvasKit */; };
-		E4FC6C542C68B7CA00AA5812 /* opencv2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FC6C532C68B7CA00AA5812 /* opencv2.xcframework */; };
+		E46774602C6D14FC00512D1C /* ColoringCanvasKit in Frameworks */ = {isa = PBXBuildFile; productRef = E467745F2C6D14FC00512D1C /* ColoringCanvasKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F5192A2C68AFAE002869B8 /* ColoringCanvasKit in Frameworks */,
-				E4FC6C542C68B7CA00AA5812 /* opencv2.xcframework in Frameworks */,
+				E46774602C6D14FC00512D1C /* ColoringCanvasKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +96,7 @@
 			);
 			name = ColoringCanvasKitExample;
 			packageProductDependencies = (
-				E4F519292C68AFAE002869B8 /* ColoringCanvasKit */,
+				E467745F2C6D14FC00512D1C /* ColoringCanvasKit */,
 			);
 			productName = ColoringCanvasKitExample;
 			productReference = E432839D2C686E65003AE419 /* ColoringCanvasKitExample.app */;
@@ -129,7 +127,7 @@
 			);
 			mainGroup = E43283942C686E65003AE419;
 			packageReferences = (
-				E42116BD2C6D0966000C19E5 /* XCRemoteSwiftPackageReference "ColoringCanvasKit" */,
+				E467745E2C6D14FC00512D1C /* XCRemoteSwiftPackageReference "ColoringCanvasKit" */,
 			);
 			productRefGroup = E432839E2C686E65003AE419 /* Products */;
 			projectDirPath = "";
@@ -374,7 +372,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E42116BD2C6D0966000C19E5 /* XCRemoteSwiftPackageReference "ColoringCanvasKit" */ = {
+		E467745E2C6D14FC00512D1C /* XCRemoteSwiftPackageReference "ColoringCanvasKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/grohong/ColoringCanvasKit.git";
 			requirement = {
@@ -385,8 +383,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E4F519292C68AFAE002869B8 /* ColoringCanvasKit */ = {
+		E467745F2C6D14FC00512D1C /* ColoringCanvasKit */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = E467745E2C6D14FC00512D1C /* XCRemoteSwiftPackageReference "ColoringCanvasKit" */;
 			productName = ColoringCanvasKit;
 		};
 /* End XCSwiftPackageProductDependency section */
